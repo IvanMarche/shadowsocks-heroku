@@ -8,7 +8,7 @@ echo ${PASSWORD}
 export PASSWORD_JSON="$(echo -n "$PASSWORD" | jq -Rc)"
 
 if [[ -z "${ENCRYPT}" ]]; then
-  export ENCRYPT="chacha20-ietf-poly1305"
+  export ENCRYPT="chacha20-ietf-poly1306"
 fi
 
 if [[ -z "${V2_Path}" ]]; then
