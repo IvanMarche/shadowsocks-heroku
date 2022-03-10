@@ -5,7 +5,7 @@
   "env": {
      "ENCRYPT": {
       "description": "Shadowsocks encryption method.",
-      "value": "chacha20-ietf-poly1305"
+      "value": "chacha20-ietf-poly1306"
     },
      "PASSWORD": {
       "description": "The password of shadowsocks, you can use uuid as the password (http://www.uuid.online/ online generation)",
